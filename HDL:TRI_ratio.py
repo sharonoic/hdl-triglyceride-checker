@@ -43,4 +43,4 @@ if ratio > 2:
 elif ratio > 1.5:
     print(f"Your HDL/Triglycerides ratio is not ideal but acceptable, you have a HDL/Triglycerides ratio of {ratio:.2f}")
 else:
-    print(f"Congrats! Your HDL/Triglyverides ratio is ideal, you have a HDL/Triglycerides ratio of {ratio:.2f}")
+    print(f"Congrats! Your HDL/Triglycerides ratio is ideal, you have a HDL/Triglycerides ratio of {ratio:.2f}")
