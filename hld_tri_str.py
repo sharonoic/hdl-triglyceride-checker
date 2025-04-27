@@ -5,15 +5,15 @@ st.title("HDL/Triglyceride Ratio Checker")
 st.markdown("This tool helps you calculate your TG/HDL ratio, a cardiovascular and metabolic health marker. "
             "Values are converted automatically. Lower ratios are generally better.")
 
-hdl_unit = st.radio("Is your HDL in mmol/L?", ("Yes", "No"))
-if hdl_unit == "Yes":
+hdl_unit = st.radio("What unit is your HDL in?", ("mmol/L", "mg/dL"))
+if hdl_unit == "mmol/L":
     hdl = st.number_input("Enter your HDL (mmol/L):", min_value=0.0, step=0.1)
     hdl_mg = hdl * 38.67
 else:
     hdl_mg = st.number_input("Enter your HDL (mg/dL):", min_value=0.0, step=1.0)
 
-tri_unit = st.radio("Is your Triglycerides in mmol/L?", ("Yes", "No"))
-if tri_unit == "Yes":
+tri_unit = st.radio("What unit is your Triglycerides in?", ("mmol/L", "mg/dL"))
+if tri_unit == "mmol/L":
     tri = st.number_input("Enter your Triglycerides (mmol/L):", min_value=0.0, step=0.1)
     tri_mg = tri * 88.57
 else:
