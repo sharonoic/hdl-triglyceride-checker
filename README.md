@@ -1,6 +1,6 @@
 # hdl-triglyceride-checker
 
-*for family and friends.*
+for family and friends, and the blood that needs a hand
 
 **To access the checker directly through your browser:**
 
